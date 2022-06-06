@@ -1,0 +1,96 @@
+/* Variables */
+:root {
+  --font-clr: rgb(51, 51, 51);
+  --bg-clr: rgba(255, 255, 255, 0.712);
+  --primary-clr: #3292a6;
+  --hover-clr: #297889;
+  --overlay: rgba(50, 146, 156, 0.7);
+  --icon-size: 24px;
+}
+
+/* Common */
+.primary {
+  background-color: var(--primary-clr);
+}
+.primary-text {
+  color: var(--primary-clr);
+}
+
+/* Header section */
+.navbar-brand,
+.nav-link {
+  color: var(--font-clr) !important;
+  font-size: 1.2rem;
+}
+.nav-link:hover {
+  color: var(--primary-clr) !important;
+}
+
+.nav-item {
+  padding-right: 1.2em;
+}
+.nav-item:last-child {
+  padding-right: 0;
+}
+
+.navbar {
+  background-color: var(--bg-clr);
+  box-shadow: 0 2px 5px var(--primary-clr);
+}
+
+/* Home section */
+#home-section {
+  background-image: url(../assets/mountains.jpg);
+  min-height: 650px;
+  background-size: cover;
+  margin-top: 92px;
+}
+
+.overlay {
+  background-color: var(--overlay);
+  min-height: 650px;
+}
+
+#home-section img {
+  width: 550px;
+}
+
+/* Subscribe section */
+#subscribe-section button:hover {
+  background-color: var(--hover-clr);
+}
+
+/* Box section */
+#box-section .card {
+  border-color: var(--primary-clr);
+}
+
+/* Authors section */
+#authors-section img {
+  width: 135px;
+  margin-top: -50px;
+}
+
+.fix-icon {
+  font-size: var(--icon-size);
+  color: var(--primary-clr);
+}
+
+#authors-section .card:hover {
+  background-color: var(--primary-clr);
+  color: white;
+}
+#authors-section .card:hover .fix-icon {
+  color: white;
+}
+
+/* Contact section */
+#contact-section button:hover {
+  background-color: var(--hover-clr);
+}
+
+/* Footer section */
+footer a:hover {
+  color: rgb(226, 226, 226) !important;
+  text-decoration: underline !important;
+}
